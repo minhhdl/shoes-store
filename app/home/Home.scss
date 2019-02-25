@@ -1,0 +1,144 @@
+.carouselItem {
+  min-height: 633px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h3 {
+    font-size: 9em;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #fff;
+    letter-spacing: 6px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}
+.carouselButton {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  outline: none;
+  i {
+    font-size: 60px;
+  }
+}
+.grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+
+  .left {
+    flex: 1;
+    height: 100%;
+  }
+  .right {
+    flex: 1;
+    height: 100%;
+  }
+  .left, .right {
+    .image, .paragraph {
+      height: 50%;
+    }
+  }
+  .image {
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5em;
+
+    h3 {
+      font-size: 30px;color: #FFF;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    }
+  }
+  .paragraph {
+    flex: 1;
+    padding: 5em 5em;
+    background: #fb383b;
+
+    h3 {
+      font-size: 30px;color: #FFF;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    }
+
+    p {
+      color: #fff;
+      font-size: 1em;
+      letter-spacing: 1px;
+      line-height: 1.9em;
+      margin: 1em 0 2em 0;
+    }
+  }
+}
+
+.button {
+  background: #000;
+  color: #fff;
+  padding: 0.6em 1em;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  transition: all .2s;
+
+  &:hover {
+    background: #fff;
+    color: #000;
+  }
+}
+.newsletter {
+  padding: 45px 0;
+
+  h3 {
+    font-size: 24px;
+    color: #333;
+    letter-spacing: 3px;
+    font-weight: 700;
+  }
+
+  form {
+    display: flex;
+
+    input {
+      outline: none;
+      width: 100%;
+      padding: 10px 15px;
+      color: #848484;
+      font-size: 14px;
+      border: 1px solid #ddd;
+      width: 74%;
+      letter-spacing: 3px;
+      background: none;
+    }
+    button {
+      outline: none;
+      border: none;
+      background: #fb383b;
+      color: #fff;
+      padding: 0.6em 1em;
+      font-size: 0.9em;
+      letter-spacing: 1px;
+      transition: all .2s;
+      border: 1px solid #fb383b;
+      height: 38px;
+      font-size: 15px;
+
+      &:hover {
+        background: #fff;
+        color: #fb383b;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.footer {
+  padding: 4em 0;
+  background: #080808;
+
+  .logo {
+    font-size: 0.9em;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  .appDesc {
+    color: #737070;
+    line-height: 2em;
+    font-size: 14px;
+    margin-top: 22px;
+    letter-spacing: 1px;
+  }
+  .copyright {
+    color: #848484;
+    text-align: center;
+    margin-top: 55px;
+    border-top: 1px solid #0e0e0e;
+    padding-top: 3em;
+    font-size: 14px;
+  }
+  .linkTitle {
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    span {
+      font-weight: 300;
+    }
+  }
+  .links {
+    margin: 0;
+    padding: 0;
+  }
+  .link a {
+    display: block;
+    color: #737070;
+    letter-spacing: 1px;
+    padding: 5px 0;
+  }
+  .info {
+    margin: 0;
+    padding: 0;
+  }
+  .infoItem {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    margin-bottom: 20px;
+
+    i {
+      margin-right: 25px;
+      font-size: 16px;
+    }
+    .itemContent {
+    }
+    .itemLabel {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .itemValue {
+      display: block;
+      color: #737070;
+    }
+  }
+}

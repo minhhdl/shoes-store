@@ -1,0 +1,43 @@
+.header {
+  padding: 45px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .logo {
+    a {
+      font-weight: 300;
+      display: inline-block;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: transparent;
+      border: 1px solid #fff;
+      padding: 10px 15px;
+    }
+  }
+  .right {
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(27, 25, 25, 0.27);
+      outline: none;
+      border: 1px solid rgba(27, 25, 25, 0.27);
+      margin: 0 2px;
+      width: 40px;
+      height: 40px;
+
+      i {
+        color: #fff;
+      }
+    }
+  }
+}
