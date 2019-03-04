@@ -1,0 +1,56 @@
+.buttonNav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  
+  i {
+    font-size: 35px;
+  }
+}
+
+.buttonNavLeft {
+  left: 0;
+}
+.buttonNavRight {
+  right: 0;
+}
+
+:global {
+  .photoGallery {
+    margin-bottom: 20px;
+    .image-gallery-image {
+      width: 100%;
+      height: 312px;
+      background-color: #fff;
+      border: 1px solid #eee;
+
+      img {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .image-gallery-thumbnails-container {
+      .image-gallery-thumbnail {
+        width: 152px;
+        height: 152px;
+
+        div:first-child {
+          width: inherit;
+          height: inherit;
+          background-color: #fff;
+          img {
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

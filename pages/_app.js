@@ -2,6 +2,7 @@ import React from 'react';
 import App, { Container } from 'next/app';
 import Router from 'next/router';
 import NProgress from 'nprogress';
+import 'isomorphic-unfetch';
 import '../app/components/globalStyle.scss';
 
 Router.events.on('routeChangeStart', (url) => {

@@ -4,6 +4,7 @@ const { parse } = require('url');
 const next = require('next');
 const { join } = require('path');
 const customRoute = require('./routes');
+const api = require('./api');
 
 const port = parseInt(process.env.PORT, 10) || 5000;
 const dev = process.env.NODE_ENV !== 'production';
@@ -18,6 +19,8 @@ app.prepare()
     const server = express();
     server.use(bodyParser.json());
     server.use(bodyParser.urlencoded({ extended: false }));
+
+    server.use('/api', api);
 
     // use next.js
     server.get('*', (req, res) => {

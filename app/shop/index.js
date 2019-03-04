@@ -4,13 +4,16 @@ import { AppLayout, Row, Col, Container } from '../components';
 import Banner from './components/Banner';
 import Filter from './components/Filter';
 import ProductItem from './components/ProductItem';
-import products from '../../data/products';
 import style from './Shop.scss';
 
 class Shop extends React.Component {
-  static getInitialProps() {
+  static async getInitialProps() {
+
+    const result = await fetch('http://localhost:5000/api/products');
+    const { data } = await result.json();
+    
     return {
-      products,
+      products: data,
     }
   }
   render() {
