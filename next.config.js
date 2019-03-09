@@ -1,15 +1,16 @@
 const withSass = require('@zeit/next-sass');
 const withCss = require('@zeit/next-css');
+const ExtractCssChunks = require('extract-css-chunks-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = withSass({
   cssModules: true,
-  webpack(config, options) {
+  webpack(config, { dev }) {
     config.module.rules.push({
       test: /\.css$/,
       include: /node_modules/,
       use: [
-        MiniCssExtractPlugin.loader,
+        ExtractCssChunks.loader,
         {
           loader: 'css-loader',
           options: {
@@ -22,8 +23,14 @@ module.exports = withSass({
       ],
     });
 
-    const extractGlobalCSSPlugin = new MiniCssExtractPlugin({
-      filename: 'static/vendor.css',
+    const extractGlobalCSSPlugin = new ExtractCssChunks({
+      filename: dev
+        ? 'static/vendor.[name].css'
+        : 'static/vendor.[name].[contenthash:8].css',
+      chunkFilename: dev
+        ? 'static/vendor.[name].chunk.css'
+        : 'static/vendor.[name].[contenthash:8].chunk.css',
+      hot: dev
     });
     config.plugins.push(extractGlobalCSSPlugin);
 

@@ -1,0 +1,28 @@
+@import '../variables';
+
+.pagination {
+  list-style-type: none;
+  @include flex-center();
+  padding: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.arrow { display: none; }
+.page {
+  font-size: 16px;
+  color: $color-inactive-1;
+  width: 25px;
+  height: 25px;
+  @include flex-center();
+  cursor: pointer;
+
+  &:focus, &:active {
+    outline: none;
+  }
+}
+.active {
+  a {
+    color: #fff;
+    background-color: #007dd0;
+  }
+}

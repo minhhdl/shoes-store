@@ -1,23 +1,29 @@
 import React from 'react';
-import Link from 'next/link';
+import Error from 'next/error';
 import { AppLayout, Row, Col, Container } from '../components';
 import Banner from './components/Banner';
 import Filter from './components/Filter';
 import ProductItem from './components/ProductItem';
+import { API_URL } from '../constants';
 import style from './Shop.scss';
 
 class Shop extends React.Component {
   static async getInitialProps() {
-
-    const result = await fetch('http://localhost:5000/api/products');
-    const { data } = await result.json();
-    
+    const result = await fetch(`${API_URL}/products`);
+    const { products, status } = await result.json();
+    if (status !== 200) {
+      return {
+        error: true,
+        status,
+      }
+    }
     return {
-      products: data,
+      products,
     }
   }
   render() {
-    const { products } = this.props;
+    const { products, error, status } = this.props;
+    if (error) return <Error statusCode={status} />
     return (
       <AppLayout>
         <Banner />

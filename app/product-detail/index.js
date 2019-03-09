@@ -1,23 +1,32 @@
 import React from 'react';
 import Link from 'next/link';
+import Error from 'next/error';
 import { AppLayout, Row, Col, Container, PhotoGallery, Rating } from '../components';
 import Banner from './components/Banner';
 import ProductItem from './components/ProductItem';
+import { API_URL } from '../constants';
 import style from './Product.scss';
 
 class Product extends React.Component {
   static async getInitialProps({ query }) {
     const { slug } = query;
-    const result = await fetch(`http://localhost:5000/api/products/${slug}`);
-    const { data } = await result.json();
-    data.product.images = data.product.images.map(item => ({ original: `/img/${item}`, thumbnail: `/img/${item}` }));
+    const result = await fetch(`${API_URL}/products/detail/${slug}`);
+    const { status, product, featureProducts } = await result.json();
+    if (status !== 200) {
+      return {
+        error: true,
+        status,
+      }
+    }
+    product.images = product.images.map(item => ({ original: `/img/${item}`, thumbnail: `/img/${item}` }));
     return {
-      product: data.product,
-      featureProducts: data.featureProducts,
+      product,
+      featureProducts,
     }
   }
   render() {
-    const { product, featureProducts } = this.props;
+    const { product, featureProducts, error, status } = this.props;
+    if (error) return <Error statusCode={status} />
     return (
       <AppLayout>
         <Banner productName={product.name} />
@@ -32,9 +41,9 @@ class Product extends React.Component {
                   <div className={style.product}>
                     <h3>{product.name}</h3>
                     <span className={style.price}>
-                      {product.salePrice ? (
+                      {product.sale_price ? (
                         <>
-                          <span>${product.salePrice}</span>
+                          <span>${product.sale_price}</span>
                           <del className={style.prevPrice}>
                             ${product.price}
                           </del>
@@ -42,7 +51,7 @@ class Product extends React.Component {
                       ) : `$${product.price}`}
                     </span>
                     <Rating rate={product.rate} />
-                    <div className={style.shortDesc} dangerouslySetInnerHTML={{ __html: product.shortDescription }} />
+                    <div className={style.shortDesc} dangerouslySetInnerHTML={{ __html: product.short_description }} />
                     <button className={style.addToCart}>
                       Add to cart
                     </button>

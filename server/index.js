@@ -1,8 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
 const { parse } = require('url');
 const next = require('next');
 const { join } = require('path');
+const mongoose = require('mongoose');
+const initData = require('./initData');
 const customRoute = require('./routes');
 const api = require('./api');
 
@@ -19,6 +22,10 @@ app.prepare()
     const server = express();
     server.use(bodyParser.json());
     server.use(bodyParser.urlencoded({ extended: false }));
+    server.use(cookieParser());
+
+    mongoose.connect('mongodb://localhost/downyshoes');
+    initData();
 
     server.use('/api', api);
 

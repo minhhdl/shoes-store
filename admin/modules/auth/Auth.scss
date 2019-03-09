@@ -1,0 +1,19 @@
+@import '../../commons/uikit/components/variables';
+
+.auth-page {
+  min-height: 100vh;
+}
+.auth-block {
+  width: 540px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: rgba(0,0,0,.55);
+  color: #fff;
+  padding: 32px;
+
+  &-title {
+    text-align: center;
+    color: $color-main;
+    margin-bottom: 25px;
+  }
+}
