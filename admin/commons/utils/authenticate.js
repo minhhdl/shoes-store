@@ -20,7 +20,7 @@ const Authentication = (WrappedComponent) => {
       if (!token) {
         return <div />;
       }
-      return <WrappedComponent {...this.props} />;
+      return <div className="admin"><WrappedComponent {...this.props} /></div>;
     }
   }
 

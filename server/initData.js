@@ -17,7 +17,7 @@ const initAdministrator = async () => {
 
 const initProducts = async () => {
   products.map(async product => {
-    const existProduct = await Product.findOne({ slug: product.slug }).exec();
+    const existProduct = await Product.findOne({ slug: product.slug, name: product.name }).exec();
     if (!existProduct) await Product.create(product);
   })
 }

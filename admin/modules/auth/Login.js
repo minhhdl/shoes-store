@@ -30,7 +30,7 @@ class Login extends React.Component {
   }
   render() {
     return (
-      <div className={cn("flex-center", s["auth-page"])}>
+      <div className={cn("flex-center", s["auth-page"], "admin")}>
         <div className={s["auth-block"]}>
           <h1 className={s["auth-block-title"]}>Sign In to Admin</h1>
           <LoginForm handleChange={this.handleChange.bind(this)} handleSubmit={this.handleSubmit.bind(this)} />

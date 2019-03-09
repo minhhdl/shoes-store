@@ -21,12 +21,7 @@
   * Remove the margin in all browsers.
   */
 
-  body {
-    position: relative;
-    margin: 0;
-    font-family: $font-family-secondary;
-    font-weight: $fw-regular;
-    font-size: $fs-body;
+  .admin {
     color: #fff;
     -webkit-font-smoothing: antialiased;
     background: url('/img/blur-bg.jpg') center center no-repeat;

@@ -5,7 +5,7 @@ import style from '../Product.scss';
 const ProductItem = ({ name, cover, price, slug }) => (
   <div className={style.productItem}>
     <div className={style.image}>
-      <img src={`/img/${cover}`} alt={name} />
+      <img src={`${cover}`} alt={name} />
       <Link href={`/product/${slug}`} passHref>
         <a className={style.button}>View detail</a>
       </Link>

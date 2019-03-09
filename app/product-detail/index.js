@@ -18,7 +18,7 @@ class Product extends React.Component {
         status,
       }
     }
-    product.images = product.images.map(item => ({ original: `/img/${item}`, thumbnail: `/img/${item}` }));
+    product.images = product.images.map(item => ({ original: item, thumbnail: item }));
     return {
       product,
       featureProducts,
