@@ -1,0 +1,250 @@
+{
+  "./noop": [
+    {
+      "id": "./node_modules/next/dist/client/noop.js",
+      "name": "./node_modules/next/dist/client/noop.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    }
+  ],
+  "../app/components/globalStyle.scss": [
+    {
+      "id": "./app/components/globalStyle.scss",
+      "name": "./app/components/globalStyle.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "undefined": [
+    {
+      "id": 1,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 5,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 13,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 15,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 16,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 17,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 18,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./reset.scss": [
+    {
+      "id": "./admin/commons/uikit/reset.scss",
+      "name": "./admin/commons/uikit/reset.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./Button.scss": [
+    {
+      "id": "./admin/commons/uikit/components/Button/Button.scss",
+      "name": "./admin/commons/uikit/components/Button/Button.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./AppBar.scss": [
+    {
+      "id": "./admin/commons/uikit/components/AppBar/AppBar.scss",
+      "name": "./admin/commons/uikit/components/AppBar/AppBar.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "../sass/Grid.scss": [
+    {
+      "id": "./admin/commons/uikit/components/Grid/sass/Grid.scss",
+      "name": "./admin/commons/uikit/components/Grid/sass/Grid.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./AppFooter.scss": [
+    {
+      "id": "./admin/commons/uikit/components/AppFooter/AppFooter.scss",
+      "name": "./admin/commons/uikit/components/AppFooter/AppFooter.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./AppSideBar.scss": [
+    {
+      "id": "./admin/commons/uikit/components/AppSideBar/AppSideBar.scss",
+      "name": "./admin/commons/uikit/components/AppSideBar/AppSideBar.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./AppLayout.scss": [
+    {
+      "id": "./admin/commons/uikit/components/AppLayout/AppLayout.scss",
+      "name": "./admin/commons/uikit/components/AppLayout/AppLayout.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./Block.scss": [
+    {
+      "id": "./admin/commons/uikit/components/Block/Block.scss",
+      "name": "./admin/commons/uikit/components/Block/Block.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./TextField.scss": [
+    {
+      "id": "./admin/commons/uikit/components/TextField/TextField.scss",
+      "name": "./admin/commons/uikit/components/TextField/TextField.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./Checkbox.scss": [
+    {
+      "id": "./admin/commons/uikit/components/Checkbox/Checkbox.scss",
+      "name": "./admin/commons/uikit/components/Checkbox/Checkbox.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "../scss/Toolbar.scss": [
+    {
+      "id": "./admin/commons/uikit/components/TextEditor/scss/Toolbar.scss",
+      "name": "./admin/commons/uikit/components/TextEditor/scss/Toolbar.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "../scss/ToolbarButton.scss": [
+    {
+      "id": "./admin/commons/uikit/components/TextEditor/scss/ToolbarButton.scss",
+      "name": "./admin/commons/uikit/components/TextEditor/scss/ToolbarButton.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./Dropdown.scss": [
+    {
+      "id": "./admin/commons/uikit/components/Dropdown/Dropdown.scss",
+      "name": "./admin/commons/uikit/components/Dropdown/Dropdown.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./scss/TextEditor.scss": [
+    {
+      "id": "./admin/commons/uikit/components/TextEditor/scss/TextEditor.scss",
+      "name": "./admin/commons/uikit/components/TextEditor/scss/TextEditor.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./photoUploaderStyle.scss": [
+    {
+      "id": "./admin/commons/uikit/components/PhotoUploader/photoUploaderStyle.scss",
+      "name": "./admin/commons/uikit/components/PhotoUploader/photoUploaderStyle.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./Products.scss": [
+    {
+      "id": "./admin/modules/app/products/Products.scss",
+      "name": "./admin/modules/app/products/Products.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ]
+}
