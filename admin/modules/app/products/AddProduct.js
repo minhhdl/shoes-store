@@ -3,6 +3,7 @@ import { stateToHTML } from 'draft-js-export-html';
 import { stateFromHTML } from 'draft-js-import-html';
 import { EditorState } from 'draft-js';
 import { withRouter } from 'next/router';
+import Head from 'next/head';
 import cn from 'classnames';
 import Toastr from 'toastr';
 import {
@@ -36,6 +37,7 @@ class AddProduct extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
     this.onEditorStateChange = this.onEditorStateChange.bind(this);
     this.handleUpload = this.handleUpload.bind(this);
+    this.startUpload = this.startUpload.bind(this);
   }
 
   async componentDidMount() {
@@ -43,6 +45,24 @@ class AddProduct extends React.Component {
     const { id: productId } = router.query;
     
     if (productId) this.getProduct();
+
+    this.uploadWidget = window.cloudinary.createUploadWidget({
+      cloudName: 'izzilab', 
+      uploadPreset: 'downyshoes'
+    });
+  }
+
+  startUpload = async () => {
+    cloudinary.openUploadWidget({
+      cloudName: 'izzilab', 
+      uploadPreset: 'downyshoes',
+    }, (error, result) => {
+      if (result && result.event === "success") {
+        const { images } = this.state;
+        images.push(result.info.url);
+        this.setState({ images });
+      }
+    });
   }
 
   onEditorStateChange(editorState) {
@@ -181,6 +201,9 @@ class AddProduct extends React.Component {
       <AppLayout
         title={title}
       >
+        <Head>
+          <script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript"></script>
+        </Head>
         <Row>
           <Col md={8}>
             <Block noHeader>
@@ -253,10 +276,16 @@ class AddProduct extends React.Component {
             </Block>
           </Col>
           <Col md={4}>
-            <PhotoUploader
+            {/* <PhotoUploader
               label="Upload photos"
               handleUpload={this.handleUpload}
-            />
+            /> */}
+            <button className={s.uploadButton} onClick={this.startUpload}>
+              <i className="material-icons">
+                add_a_photo
+              </i>
+              Upload photos
+            </button>
             <div className={s['product-images-preview']}>
               {
                 images.map((item, index) => (

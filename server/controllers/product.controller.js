@@ -3,7 +3,7 @@ const generateSlug = require('../helpers/generateSlug');
 
 const getAllProducts = async (req, res) => {
   try {
-    const products = await Product.find().exec();
+    const products = await Product.find().sort('-created_at').exec();
     res.json({
       status: 200,
       products,

@@ -12,6 +12,11 @@ const schema = mongoose.Schema({
   sale_price: Number,
   short_description: String,
   description: String,
+}, {
+  timestamps: {
+    createdAt: 'created_at',
+    updatedAt: 'updated_at',
+  },
 });
 
 const Product = new mongoose.model('Product', schema);
