@@ -1,0 +1,626 @@
+{
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/globalStyle.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/shop/Shop.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/home/Home.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/product-detail/Product.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/modules/auth/Auth.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/modules/app/products/Products.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "extract-css-chunks-webpack-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js!node_modules/toastr/build/toastr.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "extract-css-chunks-webpack-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/reset.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/PhotoGallery/PhotoGallery.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "extract-css-chunks-webpack-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js!node_modules/react-image-gallery/styles/css/image-gallery-no-icon.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "extract-css-chunks-webpack-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/Rating/Rating.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/PhotoUploader/photoUploaderStyle.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/AppLayout/Footer.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/AppLayout/Header.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/AppBar/AppBar.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/AppFooter/AppFooter.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/AppLayout/AppLayout.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/TextField/TextField.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/Dropdown/Dropdown.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/Block/Block.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/Button/Button.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/Checkbox/Checkbox.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/TextEditor/scss/TextEditor.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/Grid/sass/Grid.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/AppLayout/SideBar.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/TextEditor/scss/Toolbar.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/TextEditor/scss/ToolbarButton.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "extract-css-chunks-webpack-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js!node_modules/draft-js-anchor-plugin/lib/plugin.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "extract-css-chunks-webpack-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "extract-css-chunks-webpack-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js!node_modules/draft-js-inline-toolbar-plugin/lib/plugin.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "extract-css-chunks-webpack-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/Grid/sass/Grid.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/AppSideBar/AppSideBar.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "multi node_modules/next/dist/client/next": 0,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/globalStyle.scss 0": 1,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/reset.scss 0": 2,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/Button/Button.scss 0": 3,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/AppBar/AppBar.scss 0": 4,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/Grid/sass/Grid.scss 0": 5,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/AppFooter/AppFooter.scss 0": 6,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/AppSideBar/AppSideBar.scss 0": 7,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/AppLayout/AppLayout.scss 0": 8,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/Block/Block.scss 0": 9,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/TextField/TextField.scss 0": 10,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/Checkbox/Checkbox.scss 0": 11,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/TextEditor/scss/Toolbar.scss 0": 12,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/TextEditor/scss/ToolbarButton.scss 0": 13,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/Dropdown/Dropdown.scss 0": 14,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/TextEditor/scss/TextEditor.scss 0": 15,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/PhotoUploader/photoUploaderStyle.scss 0": 16,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/modules/auth/Auth.scss 0": 17,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/modules/app/products/Products.scss 0": 18,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/Grid/sass/Grid.scss 0": 19,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/PhotoGallery/PhotoGallery.scss 0": 20,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/Rating/Rating.scss 0": 21,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/AppLayout/Footer.scss 0": 22,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/AppLayout/SideBar.scss 0": 23,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/AppLayout/Header.scss 0": 24,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/home/Home.scss 0": 25,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/product-detail/Product.scss 0": 26,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/shop/Shop.scss 0": 27
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20,
+      "21": 21,
+      "22": 22,
+      "23": 23,
+      "24": 24,
+      "25": 25,
+      "26": 26,
+      "27": 27
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "styles": 2,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/_app.js": 3,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/_error.js": 4,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin.js": 5,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/login.js": 6,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/products.js": 7,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/products/add.js": 8,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/products/edit.js": 9,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/index.js": 10,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/product.js": 11,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/shop.js": 12,
+      "static/runtime/main.js": 13
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "extract-css-chunks-webpack-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js!node_modules/toastr/build/toastr.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "extract-css-chunks-webpack-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "extract-css-chunks-webpack-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js!node_modules/react-image-gallery/styles/css/image-gallery-no-icon.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "extract-css-chunks-webpack-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "extract-css-chunks-webpack-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js!node_modules/draft-js-inline-toolbar-plugin/lib/plugin.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "extract-css-chunks-webpack-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "extract-css-chunks-webpack-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/postcss-loader/lib/index.js!node_modules/draft-js-anchor-plugin/lib/plugin.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "extract-css-chunks-webpack-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/_app.js": 0,
+      "multi private-next-pages/_document.js": 1,
+      "multi private-next-pages/admin/index.js": 2,
+      "multi private-next-pages/admin/login.js": 3,
+      "multi private-next-pages/admin/products/add.js": 4,
+      "multi private-next-pages/admin/products/edit.js": 5,
+      "multi private-next-pages/admin/products/index.js": 6,
+      "multi private-next-pages/index.js": 7,
+      "multi private-next-pages/product.js": 8,
+      "multi private-next-pages/shop.js": 9,
+      "multi next/dist/pages/_error": 10
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/_app.js": 0,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/_document.js": 1,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/_error.js": 2,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin.js": 3,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/login.js": 4,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/products.js": 5,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/products/add.js": 6,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/products/edit.js": 7,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/index.js": 8,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/product.js": 9,
+      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/shop.js": 10
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
