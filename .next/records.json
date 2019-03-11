@@ -16,7 +16,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/shop/Shop.scss": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/home/Home.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -33,7 +33,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/home/Home.scss": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/shop/Shop.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -203,23 +203,6 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/AppLayout/Footer.scss": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/AppLayout/Header.scss": [
     {
       "modules": {
@@ -237,7 +220,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/AppBar/AppBar.scss": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!app/components/AppLayout/Footer.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -254,7 +237,24 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/AppFooter/AppFooter.scss": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/Button/Button.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/AppBar/AppBar.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -339,7 +339,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/Button/Button.scss": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/Checkbox/Checkbox.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -356,7 +356,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/Checkbox/Checkbox.scss": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/lib/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!admin/commons/uikit/components/AppFooter/AppFooter.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -593,16 +593,16 @@
       "commons": 0,
       "static/runtime/webpack.js": 1,
       "styles": 2,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/_app.js": 3,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/_error.js": 4,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin.js": 5,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/login.js": 6,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/products.js": 7,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/products/add.js": 8,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/products/edit.js": 9,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/index.js": 10,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/product.js": 11,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/shop.js": 12,
+      "static/hrWe~U~unLeA6otLegeOT/pages/_app.js": 3,
+      "static/hrWe~U~unLeA6otLegeOT/pages/_error.js": 4,
+      "static/hrWe~U~unLeA6otLegeOT/pages/admin.js": 5,
+      "static/hrWe~U~unLeA6otLegeOT/pages/admin/login.js": 6,
+      "static/hrWe~U~unLeA6otLegeOT/pages/admin/products.js": 7,
+      "static/hrWe~U~unLeA6otLegeOT/pages/admin/products/add.js": 8,
+      "static/hrWe~U~unLeA6otLegeOT/pages/admin/products/edit.js": 9,
+      "static/hrWe~U~unLeA6otLegeOT/pages/index.js": 10,
+      "static/hrWe~U~unLeA6otLegeOT/pages/product.js": 11,
+      "static/hrWe~U~unLeA6otLegeOT/pages/shop.js": 12,
       "static/runtime/main.js": 13
     },
     "bySource": {},

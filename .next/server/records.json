@@ -97,17 +97,17 @@
   },
   "chunks": {
     "byName": {
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/_app.js": 0,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/_document.js": 1,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/_error.js": 2,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin.js": 3,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/login.js": 4,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/products.js": 5,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/products/add.js": 6,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/admin/products/edit.js": 7,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/index.js": 8,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/product.js": 9,
-      "static/Ma0J~cJIVfZz64Ge6q_p6/pages/shop.js": 10
+      "static/hrWe~U~unLeA6otLegeOT/pages/_app.js": 0,
+      "static/hrWe~U~unLeA6otLegeOT/pages/_document.js": 1,
+      "static/hrWe~U~unLeA6otLegeOT/pages/_error.js": 2,
+      "static/hrWe~U~unLeA6otLegeOT/pages/admin.js": 3,
+      "static/hrWe~U~unLeA6otLegeOT/pages/admin/login.js": 4,
+      "static/hrWe~U~unLeA6otLegeOT/pages/admin/products.js": 5,
+      "static/hrWe~U~unLeA6otLegeOT/pages/admin/products/add.js": 6,
+      "static/hrWe~U~unLeA6otLegeOT/pages/admin/products/edit.js": 7,
+      "static/hrWe~U~unLeA6otLegeOT/pages/index.js": 8,
+      "static/hrWe~U~unLeA6otLegeOT/pages/product.js": 9,
+      "static/hrWe~U~unLeA6otLegeOT/pages/shop.js": 10
     },
     "bySource": {},
     "usedIds": [
